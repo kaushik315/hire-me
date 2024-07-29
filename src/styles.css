@@ -99,3 +99,11 @@ button:hover {
 .slide-out {
     animation: slide-out 0.3s forwards;
 }
+
+.slide-image {
+    max-width: 100%;
+    max-height: 300px; /* Increase the max-height */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}

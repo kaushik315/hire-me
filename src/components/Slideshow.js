@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Slide from './Slide';
 import '../styles.css';
 
@@ -19,37 +19,37 @@ const slidesData = [
         title: "A Hobby to Maintain a Healthy Body",
         content: (
             <>
-                <p>To maintain a healthy mind, I hit the gym regularly. This helps me focus on my other endeavors and hobbies.</p>
+                {/* <p>To maintain a healthy mind, I hit the gym regularly. This helps me focus on my other endeavors and hobbies.</p> */}
             </>
         ),
-        image: "" // Update with a gym-related image
+        image: "https://i.imgur.com/ICkaxyq.png"
     },
     {
         title: "A Hobby to Keep Me Curious and Learn New Things",
         content: (
             <>
-                <p>I chose to study computing and build my career in this field because of my curiosity. The computing realm is always changing, and there are always new things to learn.</p>
+                {/* <p>I chose to study computing and build my career in this field because of my curiosity. The computing realm is always changing, and there are always new things to learn.</p> */}
             </>
         ),
-        image: "" // Update with a computing-related image
+        image: "https://i.imgur.com/Jkn88Og.png" 
     },
     {
         title: "A Hobby to Keep Me Creative",
         content: (
             <>
-                <p>When life gets boring, you should always have something creative to do. For me, it was learning new instruments. Over the years, I have learned several instruments, and with that knowledge, I'm creating music for pets at the moment, which is satisfying my creative need.</p>
+                {/* <p>When life gets boring, you should always have something creative to do. For me, it was learning new instruments. Over the years, I have learned several instruments, and with that knowledge, I'm creating music for pets at the moment, which is satisfying my creative need.</p> */}
             </>
         ),
-        image: "" // Update with a music-related image
+        image: "https://i.imgur.com/Klxesks.png" 
     },
     {
         title: "A Hobby to Follow My Passion",
         content: (
             <>
-                <p>I have been interested in 2 wheels my whole life, from push bikes to motorcycles to mountain bikes. Glasgow City Council promotes and hosts cycling events in Scotland, and working as a junior developer here will help me be a part and contribute to upcoming cycling events.</p>
+                {/* <p>I have been interested in 2 wheels my whole life, from push bikes to motorcycles to mountain bikes. Glasgow City Council promotes and hosts cycling events in Scotland, and working as a junior developer here will help me be a part and contribute to upcoming cycling events.</p> */}
             </>
         ),
-        image: "" // Update with a cycling-related image
+        image: "https://i.imgur.com/hBoEqqn.png" 
     },
     {
         title: "Professional Summary",
@@ -61,7 +61,7 @@ const slidesData = [
                 <p>Experienced in data analysis and visualization.</p>
             </>
         ),
-        image: "" // Generic tech background or collage of programming languages
+        image: "" 
     },
     {
         title: "Technical Skills",
@@ -74,21 +74,19 @@ const slidesData = [
                 <p><strong>Development Tools:</strong> Visual Studio ASP.NET MVC, MERN</p>
             </>
         ),
-        image: "" // Icons or logos of the mentioned skills
+        image: "" 
     },
-    
     {
         title: "Professional Experience",
         content: (
             <>
                 <p><strong>Full Stack Developer:</strong> Advanced skills in web application development using MERN stack, HTML, PHP, CSS, ASP.NET, python, SAS, Excel and Java.</p>
-                {/* <p><strong>Developed Web Applications:</strong> Food delivery system, petition filing website.</p> */}
                 <p><strong>Treasurer at Edinburgh Napier Mountain Bike Club:</strong> Managed finances, organized events, created promotional materials.</p>
                 <p><strong>Media Volunteer at UCI World Downhill Championship 2024:</strong> Managed media activities and issued passes.</p>
                 <p><strong>Healthcare Experience:</strong> Provided essential care to clients with learning difficulties, administered medication, maintained patient records.</p>
             </>
         ),
-        image: "" // Logos or icons representing each role or activity
+        image: "" 
     },
     {
         title: "Education",
@@ -105,7 +103,7 @@ const slidesData = [
                 <p><strong>Bachelor of Science: Computer Application:</strong> VLB Janakiammal College of Arts and Science, 2018</p>
             </>
         ),
-        image: "" // University logos or graduation cap icon
+        image: "" 
     },
     {
         title: "Key Projects",
@@ -118,9 +116,8 @@ const slidesData = [
                 <p><strong>West Midlands Police Data Analysis:</strong> Analyzed crime data pre and post-COVID-19.</p>
             </>
         ),
-        image: "" // Screenshots or icons representing each project
+        image: "" 
     },
-    
     {
         title: "Visit My Portfolio",
         content: (
@@ -129,7 +126,7 @@ const slidesData = [
                 <p><a href="https://kaushik-portfolio-phi.vercel.app/" target="_blank" rel="noopener noreferrer">https://kaushik-portfolio-phi.vercel.app/</a></p>
             </>
         ),
-        image: "" // Screenshot of your portfolio homepage
+        image: "" 
     },
     {
         title: "Contact Information",
@@ -140,7 +137,7 @@ const slidesData = [
                 <p><strong>Location:</strong> Edinburgh, United Kingdom</p>
             </>
         ),
-        image: "" // Icon of an envelope, phone, and location marker
+        image: "" 
     }
 ];
 
