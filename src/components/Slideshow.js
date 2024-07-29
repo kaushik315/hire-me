@@ -67,11 +67,11 @@ const slidesData = [
         title: "Technical Skills",
         content: (
             <>
-                <p><strong>Programming Languages:</strong> C#, JavaScript, C++, .NET, HTML, PHP, CSS, ASP.NET, Java, Python</p>
+                <p><strong>Programming Languages:</strong> JavaScript, C++, C#, HTML, PHP, CSS, Java, Python</p>
                 <p><strong>Data Analysis and Visualization:</strong> SAS, Microsoft Excel, Tableau</p>
                 <p><strong>Web Development:</strong> WordPress, Wix.com</p>
                 <p><strong>Additional Skills:</strong> SQL, Git, Social Media Ads</p>
-                <p><strong>Development Tools:</strong> Visual Studio, MERN</p>
+                <p><strong>Development Tools:</strong> Visual Studio ASP.NET MVC, MERN</p>
             </>
         ),
         image: "" // Icons or logos of the mentioned skills
