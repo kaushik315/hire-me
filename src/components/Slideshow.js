@@ -135,6 +135,10 @@ const slidesData = [
                 <p><strong>Email:</strong> kaushik315@gmail.com</p>
                 <p><strong>Phone:</strong> +44 7776596367</p>
                 <p><strong>Location:</strong> Edinburgh, United Kingdom</p>
+                <p><strong>Socials:</strong></p>
+                <p><a href="https://www.linkedin.com/in/kaushik-chandrasekhar-a03193175/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                <p><a href="https://www.facebook.com/kaushik315" target="_blank" rel="noopener noreferrer">facebook</a></p>
+                <p><a href="https://youtube.com/@spiritspokes?si=XuBkEYzEaD1Xt23O" target="_blank" rel="noopener noreferrer">YouTube</a></p>
             </>
         ),
         image: "" 
