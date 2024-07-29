@@ -13,7 +13,43 @@ const slidesData = [
                 <p>Portfolio: <a href="https://kaushik-portfolio-phi.vercel.app/" target="_blank" rel="noopener noreferrer">https://kaushik-portfolio-phi.vercel.app/</a></p>
             </>
         ),
-        image: "" // Update with profile picture or cityscape of Edinburgh
+        image: "" 
+    },
+    {
+        title: "A Hobby to Maintain a Healthy Body",
+        content: (
+            <>
+                <p>To maintain a healthy mind, I hit the gym regularly. This helps me focus on my other endeavors and hobbies.</p>
+            </>
+        ),
+        image: "" // Update with a gym-related image
+    },
+    {
+        title: "A Hobby to Keep Me Curious and Learn New Things",
+        content: (
+            <>
+                <p>I chose to study computing and build my career in this field because of my curiosity. The computing realm is always changing, and there are always new things to learn.</p>
+            </>
+        ),
+        image: "" // Update with a computing-related image
+    },
+    {
+        title: "A Hobby to Keep Me Creative",
+        content: (
+            <>
+                <p>When life gets boring, you should always have something creative to do. For me, it was learning new instruments. Over the years, I have learned several instruments, and with that knowledge, I'm creating music for pets at the moment, which is satisfying my creative need.</p>
+            </>
+        ),
+        image: "" // Update with a music-related image
+    },
+    {
+        title: "A Hobby to Follow My Passion",
+        content: (
+            <>
+                <p>I have been interested in 2 wheels my whole life, from push bikes to motorcycles to mountain bikes. Glasgow City Council promotes and hosts cycling events in Scotland, and working as a junior developer here will help me be a part and contribute to upcoming cycling events.</p>
+            </>
+        ),
+        image: "" // Update with a cycling-related image
     },
     {
         title: "Professional Summary",
@@ -40,20 +76,7 @@ const slidesData = [
         ),
         image: "" // Icons or logos of the mentioned skills
     },
-    {
-        title: "Professional Expertise",
-        content: (
-            <>
-                <p>Web Application Development</p>
-                <p>Software Development</p>
-                <p>Client Relations</p>
-                <p>Event Coordination</p>
-                <p>Healthcare Support</p>
-                <p>Basic Data Analysis and Visualization</p>
-            </>
-        ),
-        image: "" // Illustration of expertise areas or professional settings
-    },
+    
     {
         title: "Professional Experience",
         content: (
@@ -97,26 +120,7 @@ const slidesData = [
         ),
         image: "" // Screenshots or icons representing each project
     },
-    {
-        title: "Additional Experience",
-        content: (
-            <>
-                <p><strong>Treasurer:</strong> Edinburgh Napier Mountain Bike Club</p>
-                <ul>
-                    <li>Managed finances, organized events, created promotional materials.</li>
-                </ul>
-                <p><strong>Media Volunteer:</strong> UCI World Downhill Championship 2024</p>
-                <ul>
-                    <li>Coordinated media activities, managed media center.</li>
-                </ul>
-                <p><strong>Healthcare Assistant:</strong> Linkfield Residential Ltd and Alexima Care Services</p>
-                <ul>
-                    <li>Provided care to clients, administered medication, maintained records.</li>
-                </ul>
-            </>
-        ),
-        image: "" // Photos or icons representing each role
-    },
+    
     {
         title: "Visit My Portfolio",
         content: (
